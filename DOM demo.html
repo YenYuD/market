@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        border: 1px solid red;
+        margin: 10px 0;
+        width: 200px;
+        height: 100px;
+      }
+      # {
+      }
+      .content.-hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1 box">
+      <ul class="lists">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    <div class="box2 box"></div>
+    <div id="cool_box" class="box3 box"></div>
+
+    <br /><br /><br />
+
+    <div class="tab">
+      <button class="button">開關</button>
+    </div>
+    <div class="content">
+      <p>我是內容</p>
+    </div>
+
+    <script>
+      console.log(window);
+      console.log(document);
+      console.log(window.innerWidth);
+      let lists = document.getElementsByTagName("li");
+      console.log(lists);
+      console.log(lists[1]);
+      lists[1].innerText = "4";
+      lists[1].remove();
+      console.log(lists);
+
+      let div2 = document.getElementsByClassName("box2");
+      console.log(div2);
+      console.log(div2[0]);
+      div2[0].innerText = "123";
+
+      let div3 = document.getElementById("cool_box");
+      console.log(div3);
+      div3.addEventListener("click", function () {
+        alert("蛤？");
+      });
+
+      let button = document.getElementsByClassName("bar1")[0];
+      for (let i = 0; i < button.length; i++) {
+        button[i].addEventListener("click", function () {
+          this.nextSibling;
+          console.log(this.nextSibling);
+        });
+      }
+      // button.addEventListener("click", function () {
+      //   let content = document.getElementsByClassName("content")[0];
+        // if (content.classList.contains("-hidden")) {
+        //   content.classList.remove("-hidden");
+        // } else {
+        //   content.classList.add("-hidden");
+        // }
+        content.classList.toggle("-hidden");
+        // console.log(content.classList);
+      });
+    </script>
+  </body>
+</html>
