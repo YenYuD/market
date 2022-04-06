@@ -51,6 +51,7 @@ header {
 
 body {
   section.digital_marketing {
+    padding-top: 80px;
     div.container {
       position: relative;
       min-height: 723px;
@@ -58,6 +59,7 @@ body {
       flex-direction: column;
       justify-content: space-evenly;
       padding-bottom: 115px;
+
       div.background {
         position: absolute;
         background-image: url(/images/dm-spot.svg);

@@ -61,6 +61,10 @@ header nav div.nav_container ul a {
   padding: 13px;
 }
 
+body section.digital_marketing {
+  padding-top: 80px;
+}
+
 body section.digital_marketing div.container {
   position: relative;
   min-height: 723px;
