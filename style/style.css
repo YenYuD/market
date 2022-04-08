@@ -1073,7 +1073,7 @@ footer div.adress div.ul ul li {
   font-size: 1.25rem;
 }
 
-footer p {
+footer p.copy {
   color: #fff;
   background-color: #000;
   text-align: center;
