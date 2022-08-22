@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-image: url(/images/bg-line.svg);
+  background-image: url(../images/bg-line.svg);
   background-color: #06100e;
   background-size: cover;
   background-attachment: fixed;
@@ -83,7 +83,7 @@ body section.digital_marketing div.container {
 
 body section.digital_marketing div.container div.background {
   position: absolute;
-  background-image: url(/images/dm-spot.svg);
+  background-image: url(../images/dm-spot.svg);
   background-repeat: no-repeat;
   background-size: contain;
   top: 30px;
@@ -745,7 +745,7 @@ section.rightline::before {
   width: 40px;
   height: 100vh;
   background-color: #fc6e42;
-  background-image: url(/images/dm-line.svg);
+  background-image: url(../images/dm-line.svg);
   background-repeat: repeat-y;
   background-size: 1.5vw;
   background-position: center;
@@ -773,7 +773,7 @@ section.rightline::after {
   width: 40px;
   height: 100vh;
   background-color: #fc6e42;
-  background-image: url(/images/dm-line.svg);
+  background-image: url(../images/dm-line.svg);
   background-repeat: repeat-y;
   background-size: 1.5vw;
   background-position: center;
